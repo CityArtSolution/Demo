@@ -1,0 +1,229 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_enhancement
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-13 11:30+0000\n"
+"PO-Revision-Date: 2022-02-13 11:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__accommodation_end_date
+msgid "Accommodation End Date"
+msgstr "تاريخ إنتهاء الإقامة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__accommodation_start_date
+msgid "Accommodation Start Date"
+msgstr "تاريخ إصدار الإقامة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__age
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__age
+msgid "Age"
+msgstr "العمر"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__birthday
+msgid "Birthday"
+msgstr "تاريخ الميلاد"
+
+#. module: hr_enhancement
+#: model:ir.model,name:hr_enhancement.model_hr_contract
+msgid "Contract"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields.selection,name:hr_enhancement.selection__hr_employee__employee_type_x__contractor
+msgid "Contractor"
+msgstr "متعاقد"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__create_uid
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__create_date
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__display_name
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model,name:hr_enhancement.model_hr_employee
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__employee_id
+msgid "Employee"
+msgstr "الموظف"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_contract__employee_no
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__employee_no
+#: model_terms:ir.ui.view,arch_db:hr_enhancement.employee_form_inherit
+msgid "Employee Number"
+msgstr "الرقم الوظيفى"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__employee_type_x
+msgid "Employee Type"
+msgstr "نوع الموظف"
+
+#. module: hr_enhancement
+#: model_terms:ir.ui.view,arch_db:hr_enhancement.employee_form_inherit
+msgid "Employee's Name In Arabic"
+msgstr "إسم الموظف بغة العربية"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__family_ids
+msgid "Family"
+msgstr "العائلة"
+
+#. module: hr_enhancement
+#: model_terms:ir.ui.view,arch_db:hr_enhancement.employee_form_inherit
+msgid "Family Details"
+msgstr "تفاصيل العائلة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields.selection,name:hr_enhancement.selection__employee_family__gender__female
+msgid "Female"
+msgstr "انثى"
+
+#. module: hr_enhancement
+#: model:ir.model.fields.selection,name:hr_enhancement.selection__hr_employee__employee_type_x__freelance
+msgid "Freelance"
+msgstr "مقدم أعمال حرة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__gender
+msgid "Gender"
+msgstr "الجنس"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__id
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__id
+msgid "ID"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__identification_no_attachment
+msgid "Identification Attachment"
+msgstr "مرفق الهوية"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__identification_no_date_end
+msgid "Identification End Date"
+msgstr "تاريخ إنتهاء الهوية"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__accommodation_job
+msgid "Job in Accommodation"
+msgstr "المهنة بالإقامة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family____last_update
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__write_uid
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__write_date
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields.selection,name:hr_enhancement.selection__employee_family__gender__male
+msgid "Male"
+msgstr "ذكر"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_family__name
+#: model:ir.model.fields,field_description:hr_enhancement.field_employee_religion__name
+msgid "Name"
+msgstr "الإسم"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_contract__arabic_name
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__arabic_name
+msgid "Name In Arabic"
+msgstr "إسم الموظف باللغة العربية"
+
+#. module: hr_enhancement
+#: model:ir.model.fields.selection,name:hr_enhancement.selection__hr_employee__employee_type_x__official
+msgid "Official"
+msgstr "موظف رسمى"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__passport_attachment
+msgid "Passport Attachment"
+msgstr "مرفق جواز السفر"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__passport_end_date
+msgid "Passport End Date"
+msgstr "تاريخ إنتهاء جواز السفر"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_contract__religion_id
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__religion_id
+msgid "Religion"
+msgstr "الديانة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,help:hr_enhancement.field_hr_employee__employee_type_x
+msgid ""
+"The employee type. Although the primary purpose may seem to categorize "
+"employees, this field has also an impact in the Contract History. Only "
+"Employee type is supposed to be under contract and will have a Contract "
+"History."
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__visa_end_date
+msgid "Visa End Date"
+msgstr "تاريخ انتهاء التأشيرة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__visa_no
+msgid "Visa Number"
+msgstr "رقم التأشيرة"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__work_owner
+msgid "Work Owner"
+msgstr "إضافة صاحب العمل"
+
+#. module: hr_enhancement
+#: model:ir.model.fields,field_description:hr_enhancement.field_hr_employee__work_owner_no
+msgid "Work Owner Phone Number"
+msgstr "إضفة رقم صاحب العمل"
+
+#. module: hr_enhancement
+#: model:ir.model,name:hr_enhancement.model_employee_family
+msgid "employee.family"
+msgstr ""
+
+#. module: hr_enhancement
+#: model:ir.model,name:hr_enhancement.model_employee_religion
+msgid "employee.religion"
+msgstr ""
