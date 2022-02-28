@@ -28,12 +28,13 @@ class HREmployeeInherit(models.Model):
 
     @api.depends('birthday')
     def get_employee_age(self):
-        self.age = 0
-        if self.birthday:
-            current_date = fields.Date.from_string(fields.date.today())
-            birthday = fields.Date.from_string(self.birthday)
-            diff = relativedelta(current_date, birthday)
-            self.age = diff.years
+        for rec in self:
+            rec.age = 0
+            if rec.birthday:
+                current_date = fields.Date.from_string(fields.date.today())
+                birthday = fields.Date.from_string(rec.birthday)
+                diff = relativedelta(current_date, birthday)
+                rec.age = diff.years
 
 
 class EmployeeFamilyMembers(models.Model):
@@ -47,12 +48,13 @@ class EmployeeFamilyMembers(models.Model):
 
     @api.depends('birthday')
     def get_employee_age(self):
-        self.age = 0
-        if self.birthday:
-            current_date = fields.Date.from_string(fields.date.today())
-            birthday = fields.Date.from_string(self.birthday)
-            diff = relativedelta(current_date, birthday)
-            self.age = diff.years
+        for rec in self:
+            rec.age = 0
+            if rec.birthday:
+                current_date = fields.Date.from_string(fields.date.today())
+                birthday = fields.Date.from_string(rec.birthday)
+                diff = relativedelta(current_date, birthday)
+                rec.age = diff.years
 
 
 class EmployeeReligion(models.Model):
